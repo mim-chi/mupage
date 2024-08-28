@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>IT総合研修図書館問い合わせフォーム</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form>
+        <p id="top">
+            <h2>１．氏名を記載してください</h2>
+        </p>
+        <input type="text">
+        <p>
+            <h2>２．身分をチェックしてください</h2>
+            <input type="radio" name="class" value="kyoin">教員
+            <input type="radio" name="class" value="shokuin">職員
+            <input type="radio" name="class" value="gakusei">学生
+        </p>
+        <p>
+            <h2>３．所属部局を以下から選んでください。</h2>
+             <select name="depertment">
+                 <option value="1">法経学部</option>
+                <option value="2">医学部</option>
+                <option value="3">理学部</option>
+               <option value="4">工学部</option>
+             </select>
+        </p>
+         <p>
+            <h2>４．自由に記述してください。</h2>
+             <textarea name="textbox">（ここに自由に記載）</textarea>
+        </p>
+    <p>
+        <input type="submit" value="確定"/>
+    </p>
+    <p>
+        <a href="#top">トップへ戻る</a>
+        <br>
+        <a href="index.html">メインページへ戻る</a>
+    </p>
+    </form>
+    <hr>
+    IT総合研修図書館運営委員会
+</body>
+</html>
